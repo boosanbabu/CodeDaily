@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+import com.codedaily.datastructure.base.TreeNode;
+
 public abstract class BinaryTree {
 
 	TreeNode root;

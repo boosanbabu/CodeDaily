@@ -1,5 +1,7 @@
 package com.codedaily.datastructure.tree;
 
+import com.codedaily.datastructure.base.TreeNode;
+
 public class BinarySearchTree extends BinaryTree {
 
 	public BinarySearchTree() {

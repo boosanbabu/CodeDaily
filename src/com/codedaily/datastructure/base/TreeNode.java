@@ -1,8 +1,8 @@
-package com.codedaily.datastructure.tree;
+package com.codedaily.datastructure.base;
 
 public class TreeNode {
-	int key;
-	TreeNode left, right;
+	public int key;
+	public TreeNode left, right;
 
 	public TreeNode(int d) {
 		key = d;
@@ -14,19 +14,19 @@ public class TreeNode {
 		right = r;
 	}
 
-	boolean hasChild() {
+	public boolean hasChild() {
 		return hasRight() || hasLeft();
 	}
 
-	boolean hasBothChild() {
+	public boolean hasBothChild() {
 		return hasRight() && hasLeft();
 	}
 
-	boolean hasRight() {
+	public boolean hasRight() {
 		return right != null;
 	}
 
-	boolean hasLeft() {
+	public boolean hasLeft() {
 		return left != null;
 	}
 
